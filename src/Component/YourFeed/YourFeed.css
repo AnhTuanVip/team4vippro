@@ -1,0 +1,30 @@
+.feed h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.feed {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+
+.feed .hr {
+  height: 14px;
+}
+
+.feed .image {
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.feed-item {
+  border: 2px solid #ff4242;
+  margin: 15px;
+  padding: 10px;
+}
+
+.tag {
+  gap: 20px;
+  display: flex;
+}

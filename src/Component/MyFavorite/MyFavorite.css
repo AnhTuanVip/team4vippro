@@ -1,0 +1,35 @@
+.container3 {
+  min-width: 90vh;
+  margin: 90px auto;
+  padding: 20px;
+}
+
+.container3 h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container3 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container3 li {
+  margin-bottom: 20px;
+  border: 2px solid #c23e3e;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container3 li h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.container3 li p {
+  margin: 0;
+}
+
+.container3 li p.author {
+  font-style: italic;
+}

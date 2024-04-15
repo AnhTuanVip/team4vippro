@@ -1,0 +1,117 @@
+.trendy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  cursor: pointer;
+}
+
+.trend {
+  margin: 30px;
+  border: 2px solid #ff4242;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trend img {
+  display: flex;
+  width: 300px;
+  height: 350px;
+  border-radius: 4px;
+  filter: drop-shadow(0 0 15px #ff4242);
+}
+
+.trendy-content {
+  display: flex;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.img {
+  margin-right: 20px;
+}
+
+.btn-trend {
+  margin-left: 300px;
+  filter: drop-shadow(0 0 15px #ff4242);
+}
+
+.hehe {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tags {
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: red;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: underline;
+}
+
+.global {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.a {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.img-global {
+  width: 200px;
+  height: 134px;
+  margin-top: 25px;
+}
+
+.global-fl {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.title-global {
+  font-size: 19px;
+}
+
+.tag1 {
+  text-align: center;
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tag2 {
+  background-color: #f2f2f2;
+  border-radius: 100px;
+  color: #242424;
+  margin: 5px;
+  font-size: 16px;
+  padding: 8px 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tag-center {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.selected-tag {
+  color: red;
+  filter: drop-shadow(5px 5px 5px gold);
+}

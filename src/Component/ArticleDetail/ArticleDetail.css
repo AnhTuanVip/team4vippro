@@ -1,0 +1,133 @@
+.detail {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.detail-title {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.author {
+  font-weight: 700;
+  text-align: end;
+}
+
+.image {
+  text-align: end;
+}
+
+.image img {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.favor {
+  text-align: end;
+  margin-right: -15px;
+}
+
+.heart {
+  font-size: 20px;
+}
+
+.img3 {
+  width: 800px;
+  margin-left: 120px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.des {
+  font-size: 17px;
+}
+
+.detail-over {
+  display: flex;
+}
+
+.mostView {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  margin-top: 100px;
+}
+
+.img5 {
+  margin-top: 50px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.getComment {
+  border-top: 1px solid #000;
+}
+
+.getComment h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+.getComment input {
+  border-radius: 5px;
+  width: 870px;
+  margin-left: 20%;
+}
+
+.getComment button {
+  border-radius: 5px;
+  background-color: #8e44ad;
+  color: #fff;
+  border: none;
+}
+
+.getComment button:active {
+  opacity: 0.7;
+}
+
+.content-comment {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  position: relative;
+  height: 100px;
+}
+
+.box {
+  margin-left: -20px;
+  margin-right: -20px;
+  position: absolute;
+}
+.box span {
+  padding: 20px;
+}
+.box img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.body {
+  font-size: 18px;
+}
+
+.bo {
+  font-size: 11px;
+  text-decoration: underline;
+}
+
+.dele {
+  background-color: red;
+}
+
+.heart1 {
+  cursor: pointer;
+}
+
+.follow-button {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(19, 206, 19);
+}

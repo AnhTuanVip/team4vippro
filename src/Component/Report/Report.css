@@ -1,0 +1,88 @@
+.events {
+  display: flex;
+  margin: 50px 100px;
+  border-top: 3px solid #ff4242;
+  min-height: 120vh;
+}
+
+.e-content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+  border-right: 3px solid #ff4242;
+  padding: 20px;
+}
+
+.formm {
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.e-content h2 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dark .e-content h2 {
+  color: #fff;
+}
+.e-content h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.dark .e-content h3 {
+  color: #fff;
+}
+.e-content p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.dark .e-content p {
+  color: #fff;
+}
+.formm h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.dark .formm h3 {
+  color: #fff;
+}
+.formm p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+.dark .formm p {
+  color: #fff;
+}
+.formm input[type="text"] {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.formm textarea {
+  padding: 18px;
+}
+.formm h3 {
+  margin-top: 20px;
+}
+.formm button {
+  background-color: #ff4242;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.formm button:hover {
+  background-color: #ff6666;
+}

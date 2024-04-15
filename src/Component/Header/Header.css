@@ -1,0 +1,144 @@
+.header {
+  height: 80px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 238, 247, 1) 0%,
+    rgba(51, 212, 134, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  padding-left: 164px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.dark .header {
+  background: #333;
+  color: #fff;
+}
+
+.icon {
+  width: 161px;
+  height: 25px;
+  fill: rgba(0, 0, 0, 1);
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  filter: drop-shadow(0 0 15px #dfb134);
+}
+
+.icon img {
+  width: 60px;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.menu-1 {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.popup-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 999;
+  filter: drop-shadow(0 0 15px #dfb134);
+}
+.dark .popup-menu {
+  background-color: #333;
+}
+.dropdown:hover .popup-menu {
+  display: block;
+}
+
+.popup-menu li {
+  padding: 8px 0;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.popup-menu li:hover {
+  background-color: #f0f0f0;
+}
+.dark .popup-menu li:hover {
+  background-color: #000;
+}
+.mode {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mode svg {
+  margin-right: 5px;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.image-ava {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 15px #dfb134);
+}
+
+.drop {
+  position: relative;
+}
+
+.drop .content {
+  display: none;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: hsl(0, 0%, 95%);
+  box-shadow: 2px 2px 5px black;
+  z-index: 999;
+  border-radius: 5px;
+}
+
+.drop:hover .content {
+  display: block;
+}
+
+.content p {
+  display: block;
+  color: black;
+  font-weight: 500;
+
+  padding: 1px 6px;
+}
+
+.content p:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+.selected {
+  color: red;
+  font-weight: 600;
+  border-bottom: 2px solid #ff4242;
+}
