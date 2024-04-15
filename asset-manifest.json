@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/team4vippro/static/css/main.157586c5.css",
+    "main.js": "/team4vippro/static/js/main.593b13d5.js",
+    "static/js/453.5e560239.chunk.js": "/team4vippro/static/js/453.5e560239.chunk.js",
+    "static/media/img1.jpg": "/team4vippro/static/media/img1.2f06d04705addf0b1ee8.jpg",
+    "static/media/img10.jpg": "/team4vippro/static/media/img10.b8ff41d9b9d750293119.jpg",
+    "static/media/img9.jpg": "/team4vippro/static/media/img9.03519f9ab5d4348809e8.jpg",
+    "static/media/img7.jpg": "/team4vippro/static/media/img7.6a4e940251d1aaf29ad0.jpg",
+    "static/media/img3.jpg": "/team4vippro/static/media/img3.98c60b9c75d2aee9b366.jpg",
+    "static/media/img6.jpg": "/team4vippro/static/media/img6.c60b3e913f9df83f3790.jpg",
+    "static/media/img2.jpg": "/team4vippro/static/media/img2.cac3a705dbf1be073f2d.jpg",
+    "static/media/img5.jpg": "/team4vippro/static/media/img5.b5e7b9fb5e0e7ca7021c.jpg",
+    "index.html": "/team4vippro/index.html",
+    "main.157586c5.css.map": "/team4vippro/static/css/main.157586c5.css.map",
+    "main.593b13d5.js.map": "/team4vippro/static/js/main.593b13d5.js.map",
+    "453.5e560239.chunk.js.map": "/team4vippro/static/js/453.5e560239.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.157586c5.css",
+    "static/js/main.593b13d5.js"
+  ]
+}
